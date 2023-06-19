@@ -9,11 +9,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize-tech.css">
     <link rel="stylesheet" href="css/styles-tech.css">
 </head>
 
 <body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                <source
+                     sizes="1920w, 1280w, 640w" 
+                     srcset="img/header.avif 1920w" 
+                     type="image/avif">
+                <source
+                     sizes="1920w, 1280w, 640w" 
+                     srcset="img/header.webp 1920w" 
+                     type="image/webp">
+                <source
+                     sizes="1920w, 1280w, 640w" 
+                     srcset="img/header.png 1920w,"
+                     type="image/jpeg">
+                <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen" width="1000" height="600">
+                </picture>
+            </div> <!--imagen header-->
+            <div class="texto-header">
+                <p class="tagline-profucto">Sonido Profesional</p>
+                <h1 class="nombre-producto">TechPRO</h1>
+                <p class="descripcion-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatem nulla voluptates ab ea aut, minima fugit nesciunt voluptatibus esse magni praesentium nam tempora earum facere itaque pariatur doloremque molestiae!</p>
+            <p class="precio-producto">Desde<span>$299</span></p>
+            </div>
+        </div>
+    </header>
+
 
 </body>
  <div class=""></div>
