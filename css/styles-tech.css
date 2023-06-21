@@ -355,6 +355,7 @@ img {
 }
 
 .texto-news {
+    text-align: center;
     grid-row: 2 / 3;
 }
 
@@ -369,6 +370,7 @@ img {
 .formulario input[type="text"] {
     width: 100%;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .formulario input[type="submit"] {
@@ -380,4 +382,13 @@ img {
     font-size: 2rem;
     font-weight: 900;
     border: none;
+}
+
+/*Footer*/
+.footer p {
+    text-align: center;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2.4rem;
+    color: var(--primario);
+    padding: 2rem 0;
 }
