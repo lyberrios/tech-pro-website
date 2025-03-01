@@ -386,6 +386,7 @@ img {
         background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0%), url(../img/newsletter.avif);
     
 }
+}
 @media (min-width: 2200px) { 
     .newsletter {
         background-size: 100%, 200rem;
