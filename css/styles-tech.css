@@ -445,3 +445,15 @@ img {
     color: var(--primario);
     padding: 2rem 0;
 }
+/*scroll effects*/
+.fade-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Clases que se añaden por JS */
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
